@@ -2,9 +2,9 @@
 class Stackit < Formula
   desc "stackit is a cross-platform CloudFormation CLI tool for easy synchronous and idempotent stack updates"
   homepage "https://github.com/glassechidna/stackit"
-  url "https://github.com/glassechidna/stackit/releases/download/0.0.29/stackit_0.0.29_Darwin_x86_64.tar.gz"
-  version "0.0.29"
-  sha256 "a16faa898eb802f8855cd93d1feacefbfb42e7f2067d811a34ec2e16f5d4c767"
+  url "https://github.com/glassechidna/stackit/releases/download/0.0.30/stackit_0.0.30_Darwin_x86_64.tar.gz"
+  version "0.0.30"
+  sha256 "f25dbe80c4a0ae177f03d54861d1531d7a0739c9e7ca0ad1bea4c9d813ef9175"
 
   def install
     bin.install "stackit"
