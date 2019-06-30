@@ -2,9 +2,9 @@
 class Ec2connect < Formula
   desc "ec2connect is a convenient SSH wrapper around EC2 instance connect"
   homepage "https://github.com/glassechidna/ec2connect"
-  url "https://github.com/glassechidna/ec2connect/releases/download/0.0.2/ec2connect_0.0.2_Darwin_x86_64.tar.gz"
-  version "0.0.2"
-  sha256 "29238df5e435a1b2179eb152cf82b872fa974d7aa2d52c8d945c42a1bf358935"
+  url "https://github.com/glassechidna/ec2connect/releases/download/0.0.3/ec2connect_0.0.3_Darwin_x86_64.tar.gz"
+  version "0.0.3"
+  sha256 "94ce7f9420289616691f97644ece668a60fece4cb9e6823ad204efb8186ea65a"
 
   def install
     bin.install "ec2connect"
