@@ -7,11 +7,11 @@ class Stackit < Formula
 
   if OS.mac?
     url "https://github.com/glassechidna/stackit/releases/download/0.0.35/stackit_0.0.35_Darwin_x86_64.tar.gz"
-    sha256 "7ac2953b63369919499dd2c834e5daf4e978442cd0b1b4c641e2c5b7b616957b"
+    sha256 "9145124b4ca1160e49fc2a723fd41a7286ff82753b6f705650a91f0048f18535"
   elsif OS.linux?
     if Hardware::CPU.intel?
       url "https://github.com/glassechidna/stackit/releases/download/0.0.35/stackit_0.0.35_Linux_x86_64.tar.gz"
-      sha256 "751a81cd2a94e45c8922f96076b7be62f70cf6cf2f2017132748bf7f9cb69128"
+      sha256 "52c956cc493ab00bb7f4297d58235e2239c70fe4e4af2b54ed90c5ccb782f8c1"
     end
   end
 
