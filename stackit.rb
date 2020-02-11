@@ -2,16 +2,16 @@
 class Stackit < Formula
   desc "stackit is a cross-platform CloudFormation CLI tool for easy synchronous and idempotent stack updates"
   homepage "https://github.com/glassechidna/stackit"
-  version "0.0.37"
+  version "0.0.38"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/glassechidna/stackit/releases/download/0.0.37/stackit_0.0.37_Darwin_x86_64.tar.gz"
-    sha256 "0c73f9be595f056fb5ca77824b1b3ee74bdac828774243b37ea2b83a990fe5df"
+    url "https://github.com/glassechidna/stackit/releases/download/0.0.38/stackit_0.0.38_Darwin_x86_64.tar.gz"
+    sha256 "7d879eea83d2324a60a6faeed3b45f7628a2b5769e6ae424b776d32089d432fe"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/glassechidna/stackit/releases/download/0.0.37/stackit_0.0.37_Linux_x86_64.tar.gz"
-      sha256 "402c0cc4ee8ae682262bb95c5d2e5e013ab2ab86d1d55da2d059189067df9b0b"
+      url "https://github.com/glassechidna/stackit/releases/download/0.0.38/stackit_0.0.38_Linux_x86_64.tar.gz"
+      sha256 "69f2c4bcac0d7d13202732f03b8cd0324c7efc4484f1502a4ef4f06a7ee905e7"
     end
   end
 
