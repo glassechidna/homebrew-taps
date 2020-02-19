@@ -2,16 +2,16 @@
 class Webpushy < Formula
   desc "webpushy is a CLI for sending and receiving small payloads using web browser push services"
   homepage "https://github.com/glassechidna/webpushy"
-  version "0.1.0"
+  version "0.1.1"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/glassechidna/webpushy/releases/download/0.1.0/webpushy_0.1.0_Darwin_x86_64.tar.gz"
-    sha256 "e2d2c16085fd2f1a544c0c31ac59ea249fafbea769355e2d965754c7debb2987"
+    url "https://github.com/glassechidna/webpushy/releases/download/0.1.1/webpushy_0.1.1_Darwin_x86_64.tar.gz"
+    sha256 "ad472af236bac7aec649b47d89d81f808b129e63a3884e21339ba6603ec4d7cf"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/glassechidna/webpushy/releases/download/0.1.0/webpushy_0.1.0_Linux_x86_64.tar.gz"
-      sha256 "6729ecdc747b966b4d46172bd6cf41fff2b5eab73fb06464dd2dd1f4135a0374"
+      url "https://github.com/glassechidna/webpushy/releases/download/0.1.1/webpushy_0.1.1_Linux_x86_64.tar.gz"
+      sha256 "2379c328eae929405874aad1c7ee75ace68fc7c6a48ae2b9ca0a0772682b64c8"
     end
   end
 
