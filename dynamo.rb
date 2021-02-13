@@ -2,16 +2,16 @@
 class Dynamo < Formula
   desc "dynamo is a dead-simple CLI for AWS DynamoDB"
   homepage "https://github.com/glassechidna/dynamo"
-  version "0.6.0"
+  version "0.7.0"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/glassechidna/dynamo/releases/download/0.6.0/dynamo_0.6.0_Darwin_x86_64.tar.gz"
-    sha256 "b90100d1f34b5818f926deb29e136a67967d44b95497fe7f527e7455efe4335e"
+    url "https://github.com/glassechidna/dynamo/releases/download/0.7.0/dynamo_0.7.0_Darwin_x86_64.tar.gz"
+    sha256 "ae86d73606ca9806909c3ed80ba1ae795f784bd7174c71bd35ffa7c25c6a9382"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/glassechidna/dynamo/releases/download/0.6.0/dynamo_0.6.0_Linux_x86_64.tar.gz"
-      sha256 "04ae8ac9f0f65d6b56fdeb510d9f2b8b714088a62ae096b536ccc33da143075f"
+      url "https://github.com/glassechidna/dynamo/releases/download/0.7.0/dynamo_0.7.0_Linux_x86_64.tar.gz"
+      sha256 "c767c0b939fa7b0721b43bd934b0302dca0b993bda99c32def664a6f8f07ac28"
     end
   end
 
