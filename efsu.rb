@@ -5,28 +5,28 @@
 class Efsu < Formula
   desc "efsu is for accessing AWS EFS from your machine without a VPN"
   homepage "https://github.com/glassechidna/efsu"
-  version "0.2.0"
+  version "0.3.0"
   bottle :unneeded
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/glassechidna/efsu/releases/download/v0.2.0/efsu_0.2.0_darwin_amd64.tar.gz"
-      sha256 "99c665cf8d2e6865f435cdd38af9919d42ab6f52dec50f9d45c6e822a9a20b31"
+      url "https://github.com/glassechidna/efsu/releases/download/0.3.0/efsu_0.3.0_darwin_amd64.tar.gz"
+      sha256 "99c768f1d233a5cbb242cba87e572f8b573bd849d4f6486887b2951c50b153e0"
     end
     if Hardware::CPU.arm?
-      url "https://github.com/glassechidna/efsu/releases/download/v0.2.0/efsu_0.2.0_darwin_arm64.tar.gz"
-      sha256 "148f26f361715e4edb41fc9a6190b90b0cc696770adda98a9522a032398cfe06"
+      url "https://github.com/glassechidna/efsu/releases/download/0.3.0/efsu_0.3.0_darwin_arm64.tar.gz"
+      sha256 "eb52e5d8c1d77d362522db1857f92df313d85d13d783d92f70ef89cc55c8c3b6"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/glassechidna/efsu/releases/download/v0.2.0/efsu_0.2.0_linux_amd64.tar.gz"
-      sha256 "9f26025b5860eda38a36c517484531ab73bc8d7a46211b72303ffb2a681dbf23"
+      url "https://github.com/glassechidna/efsu/releases/download/0.3.0/efsu_0.3.0_linux_amd64.tar.gz"
+      sha256 "2ec11f2d61ae6520a9b2c7cd2db97b8edb64fad9d6602bb76b4b2056007150dc"
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/glassechidna/efsu/releases/download/v0.2.0/efsu_0.2.0_linux_arm64.tar.gz"
-      sha256 "8e909da0cf57c9c47615c184175158a8faa5969e21a2644317a6c534459903b7"
+      url "https://github.com/glassechidna/efsu/releases/download/0.3.0/efsu_0.3.0_linux_arm64.tar.gz"
+      sha256 "e714cbc2c2e85fe7a6f5226b44ce9a0f8d2ebb0535f21395c32c09aa01a46369"
     end
   end
 
