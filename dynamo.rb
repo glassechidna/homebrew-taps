@@ -3,7 +3,6 @@ class Dynamo < Formula
   desc "dynamo is a dead-simple CLI for AWS DynamoDB"
   homepage "https://github.com/glassechidna/dynamo"
   version "0.7.0"
-  bottle :unneeded
 
   if OS.mac?
     url "https://github.com/glassechidna/dynamo/releases/download/0.7.0/dynamo_0.7.0_Darwin_x86_64.tar.gz"

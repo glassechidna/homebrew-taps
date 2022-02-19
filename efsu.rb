@@ -6,7 +6,6 @@ class Efsu < Formula
   desc "efsu is for accessing AWS EFS from your machine without a VPN"
   homepage "https://github.com/glassechidna/efsu"
   version "0.3.0"
-  bottle :unneeded
 
   on_macos do
     if Hardware::CPU.intel?

@@ -3,7 +3,6 @@ class KmsHostKey < Formula
   desc "kms-host-key is an easy way to give all your EC2 instances SSH host certificates"
   homepage "https://github.com/glassechidna/kms-host-key"
   version "0.1.0"
-  bottle :unneeded
 
   if OS.mac?
     url "https://github.com/glassechidna/kms-host-key/releases/download/0.1.0/kms-host-key_0.1.0_darwin_amd64.tar.gz"
