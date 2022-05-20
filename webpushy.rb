@@ -3,7 +3,6 @@ class Webpushy < Formula
   desc "webpushy is a CLI for sending and receiving small payloads using web browser push services"
   homepage "https://github.com/glassechidna/webpushy"
   version "0.2.0"
-  bottle :unneeded
 
   if OS.mac?
     url "https://github.com/glassechidna/webpushy/releases/download/0.2.0/webpushy_0.2.0_Darwin_x86_64.tar.gz"

@@ -3,7 +3,6 @@ class Awsweb < Formula
   desc "awsweb is a tool for hopping between AWS roles with ease"
   homepage "https://github.com/glassechidna/awsweb"
   version "0.1.7"
-  bottle :unneeded
 
   if OS.mac?
     url "https://github.com/glassechidna/awsweb/releases/download/0.1.7/awsweb_0.1.7_Darwin_x86_64.tar.gz"

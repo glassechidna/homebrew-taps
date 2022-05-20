@@ -3,7 +3,6 @@ class Stackit < Formula
   desc "stackit is a cross-platform CloudFormation CLI tool for easy synchronous and idempotent stack updates"
   homepage "https://github.com/glassechidna/stackit"
   version "0.0.40"
-  bottle :unneeded
 
   if OS.mac?
     url "https://github.com/glassechidna/stackit/releases/download/0.0.40/stackit_0.0.40_Darwin_x86_64.tar.gz"
